@@ -29,6 +29,14 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Teleprompter Pro uses the camera to record videos while displaying your script.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Teleprompter Pro uses the local network for connectivity features.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Teleprompter Pro uses the microphone to capture audio during recording.</string>
+	<key>UILaunchScreen</key>
+	<dict/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

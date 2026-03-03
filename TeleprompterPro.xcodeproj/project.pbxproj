@@ -8,9 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		08A270A8543404A9FF9FB567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D67C32B458B8EE230A9ADBF /* Assets.xcassets */; };
-		1C027B9BE1933454580763B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE672B0EE73003A50A2073 /* ContentView.swift */; };
+		1909D59514A52E84CE63CA4A /* RecordLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AE04C1BC8CBD3059C69861 /* RecordLaunchView.swift */; };
+		1F1AA988D1E0F7BCEF0633E5 /* OpenClawCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7C48AEBC6ECA80E2DB253ECC /* OpenClawCore */; };
 		2F148FE7BE29325A32735239 /* TeleprompterProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA989BCDD5DB751A60C784E0 /* TeleprompterProTests.swift */; };
+		45C8D7200F141018E736D83B /* OpenClawSupabase in Frameworks */ = {isa = PBXBuildFile; productRef = F3C64E531B38472640268925 /* OpenClawSupabase */; };
+		69B395EDB55503CBBC8CD7C9 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B9D257903C1901C9E8574 /* Script.swift */; };
+		69B7BC03BED119468E43F632 /* OpenClawTCA in Frameworks */ = {isa = PBXBuildFile; productRef = CF79C83857A55B7F8392F142 /* OpenClawTCA */; };
+		6BA646C538F0E11B1F3A8A28 /* RecordingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D3468C0E7F0253EAFFEEAF /* RecordingSession.swift */; };
+		9408C6BB5C3C75C8CF08248E /* TeleprompterRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBBF258B1CDBD2BB7C96CB /* TeleprompterRootView.swift */; };
+		9505576FE2E34653E9583316 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4005038D79D39FC589161 /* SettingsView.swift */; };
+		9D30C54A9DDC40CE15F9C530 /* PostRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BBB05BBE7F2DB08444A9CC /* PostRecordingView.swift */; };
+		A1B909FE2C98E816AD9A77CA /* TeleprompterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08208FB85252633382D7D95 /* TeleprompterFeature.swift */; };
+		B51B3B3D82D3711DDA6E0CFA /* ScriptFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3BC0B4AD51241456D44BC /* ScriptFormView.swift */; };
+		B627574841F0D32A574B06E2 /* TeleprompterOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A97F6314DEEFC1F5D136B9 /* TeleprompterOverlay.swift */; };
+		B8D9FE047F53414B357744B0 /* RecordingControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB08388A0E9BA40D5DAB9A /* RecordingControlsView.swift */; };
 		C425DDD493271C3F438DB053 /* TeleprompterProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBDEF41573EF50DF4DC2F1C /* TeleprompterProApp.swift */; };
+		D592AD7055F83977083F0A93 /* ScriptListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35862BF39F6FCA1F56CBBB2 /* ScriptListView.swift */; };
+		DBF8EC4A473A2513FBCD24DD /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC955B714E5A95C930B104E /* CameraPreviewView.swift */; };
+		DF5AF612CC06AB667963D91D /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476E4C3D8CFA60C6D29D0224 /* RecordingView.swift */; };
+		ECD80DD0DB2AEE0B3032403D /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 534B28FA92C518E6325A9663 /* Supabase */; };
+		EE391138F1464E1A8C712588 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = CA3AA07D64FE0C49F76037BD /* ComposableArchitecture */; };
+		F00B7E94D465FEFF4192B037 /* ScriptStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12433F3A655DC6694C7D41EB /* ScriptStorage.swift */; };
+		FEB93A305A7D0FE13E811A37 /* RecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7D0D29FA10BC79AA2CCF5 /* RecordingService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,27 +43,94 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12433F3A655DC6694C7D41EB /* ScriptStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptStorage.swift; sourceTree = "<group>"; };
+		19F4005038D79D39FC589161 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1EA384F3D6B33664EE5F8090 /* TeleprompterProTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TeleprompterProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B9D257903C1901C9E8574 /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
 		2A701DAA84AD4D344341DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		41BE672B0EE73003A50A2073 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DCB08388A0E9BA40D5DAB9A /* RecordingControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingControlsView.swift; sourceTree = "<group>"; };
+		2EC955B714E5A95C930B104E /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		476E4C3D8CFA60C6D29D0224 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
 		5DBDEF41573EF50DF4DC2F1C /* TeleprompterProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterProApp.swift; sourceTree = "<group>"; };
+		61A97F6314DEEFC1F5D136B9 /* TeleprompterOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterOverlay.swift; sourceTree = "<group>"; };
 		6C5FC148BFA253A405FD5D63 /* TeleprompterPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeleprompterPro.entitlements; sourceTree = "<group>"; };
 		7D67C32B458B8EE230A9ADBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B08208FB85252633382D7D95 /* TeleprompterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterFeature.swift; sourceTree = "<group>"; };
+		B0BBB05BBE7F2DB08444A9CC /* PostRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRecordingView.swift; sourceTree = "<group>"; };
+		C4D3468C0E7F0253EAFFEEAF /* RecordingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSession.swift; sourceTree = "<group>"; };
+		D35862BF39F6FCA1F56CBBB2 /* ScriptListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptListView.swift; sourceTree = "<group>"; };
 		D9838607877EF2A80C60FB87 /* TeleprompterPro.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TeleprompterPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D7D0D29FA10BC79AA2CCF5 /* RecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingService.swift; sourceTree = "<group>"; };
 		EA989BCDD5DB751A60C784E0 /* TeleprompterProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterProTests.swift; sourceTree = "<group>"; };
+		EAEBBF258B1CDBD2BB7C96CB /* TeleprompterRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterRootView.swift; sourceTree = "<group>"; };
+		F3AE04C1BC8CBD3059C69861 /* RecordLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLaunchView.swift; sourceTree = "<group>"; };
+		F8B3BC0B4AD51241456D44BC /* ScriptFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		DE930696C5BFF3A3CDCEF9F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE391138F1464E1A8C712588 /* ComposableArchitecture in Frameworks */,
+				ECD80DD0DB2AEE0B3032403D /* Supabase in Frameworks */,
+				1F1AA988D1E0F7BCEF0633E5 /* OpenClawCore in Frameworks */,
+				45C8D7200F141018E736D83B /* OpenClawSupabase in Frameworks */,
+				69B7BC03BED119468E43F632 /* OpenClawTCA in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		014FB0ACBCEE337DAAB13A86 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5D7D0D29FA10BC79AA2CCF5 /* RecordingService.swift */,
+				12433F3A655DC6694C7D41EB /* ScriptStorage.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		10ADB89ED46AC2E9365D86AE /* TeleprompterPro */ = {
 			isa = PBXGroup;
 			children = (
 				7D67C32B458B8EE230A9ADBF /* Assets.xcassets */,
-				41BE672B0EE73003A50A2073 /* ContentView.swift */,
 				2A701DAA84AD4D344341DB34 /* Info.plist */,
 				6C5FC148BFA253A405FD5D63 /* TeleprompterPro.entitlements */,
 				5DBDEF41573EF50DF4DC2F1C /* TeleprompterProApp.swift */,
+				D4D9FB62DF30048B87CC63B0 /* Features */,
+				4DB016832187D15E09CE7EDB /* Models */,
+				014FB0ACBCEE337DAAB13A86 /* Services */,
+				17B3DE7D10248F2929D42A99 /* Views */,
 			);
 			path = TeleprompterPro;
+			sourceTree = "<group>";
+		};
+		17B3DE7D10248F2929D42A99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EC955B714E5A95C930B104E /* CameraPreviewView.swift */,
+				B0BBB05BBE7F2DB08444A9CC /* PostRecordingView.swift */,
+				2DCB08388A0E9BA40D5DAB9A /* RecordingControlsView.swift */,
+				476E4C3D8CFA60C6D29D0224 /* RecordingView.swift */,
+				F3AE04C1BC8CBD3059C69861 /* RecordLaunchView.swift */,
+				F8B3BC0B4AD51241456D44BC /* ScriptFormView.swift */,
+				D35862BF39F6FCA1F56CBBB2 /* ScriptListView.swift */,
+				19F4005038D79D39FC589161 /* SettingsView.swift */,
+				61A97F6314DEEFC1F5D136B9 /* TeleprompterOverlay.swift */,
+				EAEBBF258B1CDBD2BB7C96CB /* TeleprompterRootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DB016832187D15E09CE7EDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4D3468C0E7F0253EAFFEEAF /* RecordingSession.swift */,
+				289B9D257903C1901C9E8574 /* Script.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		50BF1495EC5F8528AA297C04 /* Products */ = {
@@ -65,6 +151,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		D4D9FB62DF30048B87CC63B0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B08208FB85252633382D7D95 /* TeleprompterFeature.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		F0E7D728F833998C478420BE /* TeleprompterProTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +176,7 @@
 			buildPhases = (
 				20C807251BFA7DCF21529A98 /* Sources */,
 				5B6C506197E700ECA3F199FC /* Resources */,
+				DE930696C5BFF3A3CDCEF9F0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -89,6 +184,11 @@
 			);
 			name = TeleprompterPro;
 			packageProductDependencies = (
+				CA3AA07D64FE0C49F76037BD /* ComposableArchitecture */,
+				534B28FA92C518E6325A9663 /* Supabase */,
+				7C48AEBC6ECA80E2DB253ECC /* OpenClawCore */,
+				F3C64E531B38472640268925 /* OpenClawSupabase */,
+				CF79C83857A55B7F8392F142 /* OpenClawTCA */,
 			);
 			productName = TeleprompterPro;
 			productReference = D9838607877EF2A80C60FB87 /* TeleprompterPro.app */;
@@ -137,6 +237,11 @@
 			);
 			mainGroup = A3D95414010A9F84AE3D82A6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2AAF208E2F0E0966D5626AFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				F328F4CF5C6FCFEC5A9F84D0 /* XCRemoteSwiftPackageReference "OpenClawKit" */,
+				34CE3814A6524EFAB73DFB21 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,8 +268,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C027B9BE1933454580763B7 /* ContentView.swift in Sources */,
+				DBF8EC4A473A2513FBCD24DD /* CameraPreviewView.swift in Sources */,
+				9D30C54A9DDC40CE15F9C530 /* PostRecordingView.swift in Sources */,
+				1909D59514A52E84CE63CA4A /* RecordLaunchView.swift in Sources */,
+				B8D9FE047F53414B357744B0 /* RecordingControlsView.swift in Sources */,
+				FEB93A305A7D0FE13E811A37 /* RecordingService.swift in Sources */,
+				6BA646C538F0E11B1F3A8A28 /* RecordingSession.swift in Sources */,
+				DF5AF612CC06AB667963D91D /* RecordingView.swift in Sources */,
+				69B395EDB55503CBBC8CD7C9 /* Script.swift in Sources */,
+				B51B3B3D82D3711DDA6E0CFA /* ScriptFormView.swift in Sources */,
+				D592AD7055F83977083F0A93 /* ScriptListView.swift in Sources */,
+				F00B7E94D465FEFF4192B037 /* ScriptStorage.swift in Sources */,
+				9505576FE2E34653E9583316 /* SettingsView.swift in Sources */,
+				A1B909FE2C98E816AD9A77CA /* TeleprompterFeature.swift in Sources */,
+				B627574841F0D32A574B06E2 /* TeleprompterOverlay.swift in Sources */,
 				C425DDD493271C3F438DB053 /* TeleprompterProApp.swift in Sources */,
+				9408C6BB5C3C75C8CF08248E /* TeleprompterRootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +366,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -305,7 +424,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_STRICT_CONCURRENCY = complete;
-				SWIFT_VERSION = 6;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -413,6 +532,61 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AAF208E2F0E0966D5626AFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
+		34CE3814A6524EFAB73DFB21 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		F328F4CF5C6FCFEC5A9F84D0 /* XCRemoteSwiftPackageReference "OpenClawKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Diomandeee/OpenClawKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		534B28FA92C518E6325A9663 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34CE3814A6524EFAB73DFB21 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		7C48AEBC6ECA80E2DB253ECC /* OpenClawCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F328F4CF5C6FCFEC5A9F84D0 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawCore;
+		};
+		CA3AA07D64FE0C49F76037BD /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AAF208E2F0E0966D5626AFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		CF79C83857A55B7F8392F142 /* OpenClawTCA */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F328F4CF5C6FCFEC5A9F84D0 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawTCA;
+		};
+		F3C64E531B38472640268925 /* OpenClawSupabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F328F4CF5C6FCFEC5A9F84D0 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
+			productName = OpenClawSupabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AEAA21409A6FD859ACA1CFC0 /* Project object */;
 }
