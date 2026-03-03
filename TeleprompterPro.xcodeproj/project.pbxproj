@@ -13,7 +13,6 @@
 		2F148FE7BE29325A32735239 /* TeleprompterProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA989BCDD5DB751A60C784E0 /* TeleprompterProTests.swift */; };
 		45C8D7200F141018E736D83B /* OpenClawSupabase in Frameworks */ = {isa = PBXBuildFile; productRef = F3C64E531B38472640268925 /* OpenClawSupabase */; };
 		69B395EDB55503CBBC8CD7C9 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B9D257903C1901C9E8574 /* Script.swift */; };
-		69B7BC03BED119468E43F632 /* OpenClawTCA in Frameworks */ = {isa = PBXBuildFile; productRef = CF79C83857A55B7F8392F142 /* OpenClawTCA */; };
 		6BA646C538F0E11B1F3A8A28 /* RecordingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D3468C0E7F0253EAFFEEAF /* RecordingSession.swift */; };
 		9408C6BB5C3C75C8CF08248E /* TeleprompterRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEBBF258B1CDBD2BB7C96CB /* TeleprompterRootView.swift */; };
 		9505576FE2E34653E9583316 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4005038D79D39FC589161 /* SettingsView.swift */; };
@@ -76,7 +75,6 @@
 				ECD80DD0DB2AEE0B3032403D /* Supabase in Frameworks */,
 				1F1AA988D1E0F7BCEF0633E5 /* OpenClawCore in Frameworks */,
 				45C8D7200F141018E736D83B /* OpenClawSupabase in Frameworks */,
-				69B7BC03BED119468E43F632 /* OpenClawTCA in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +186,6 @@
 				534B28FA92C518E6325A9663 /* Supabase */,
 				7C48AEBC6ECA80E2DB253ECC /* OpenClawCore */,
 				F3C64E531B38472640268925 /* OpenClawSupabase */,
-				CF79C83857A55B7F8392F142 /* OpenClawTCA */,
 			);
 			productName = TeleprompterPro;
 			productReference = D9838607877EF2A80C60FB87 /* TeleprompterPro.app */;
@@ -435,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8643C988C4;
 				INFOPLIST_FILE = TeleprompterPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8643C988C4;
 				INFOPLIST_FILE = TeleprompterPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -554,8 +551,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Diomandeee/OpenClawKit";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = exactVersion;
+				version = 1.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -575,11 +572,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2AAF208E2F0E0966D5626AFF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
-		};
-		CF79C83857A55B7F8392F142 /* OpenClawTCA */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F328F4CF5C6FCFEC5A9F84D0 /* XCRemoteSwiftPackageReference "OpenClawKit" */;
-			productName = OpenClawTCA;
 		};
 		F3C64E531B38472640268925 /* OpenClawSupabase */ = {
 			isa = XCSwiftPackageProductDependency;
